@@ -1,14 +1,13 @@
 import React from "react";
+import styled from "styled-components";
 import Layout from "../components/layout";
 import Navbar from "../components/navbar";
 
-// markup
-const IndexPage = () => {
+export default function About() {
   return (
     <Layout>
+      About
       <Navbar />
     </Layout>
   );
-};
-
-export default IndexPage;
+}
